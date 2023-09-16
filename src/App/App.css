@@ -1,0 +1,16 @@
+.app {
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 1px 4px 12px 4px rgb(90 89 89);
+    padding: 10px;
+    margin: 50px auto;
+    background-color: rgb(195, 206, 203);
+    background-position: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+@media (max-width: 700px) {
+    .app {
+        margin: 50px
+    }
+}
