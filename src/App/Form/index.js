@@ -23,6 +23,7 @@ export const Form = ({ calculateResult, result }) => {
                         *Kwota w PLN:
                     </span>
                     <input
+                        autoFocus
                         className="form__field"
                         value={amount}
                         onChange={({ target }) => setAmount(target.value)}
