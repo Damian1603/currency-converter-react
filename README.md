@@ -8,7 +8,7 @@ Hello, I present you a simple currency calculator that allows you to convert any
 
 ![Animation](https://github.com/Damian1603/currency-converter-react/assets/124574553/ac86a32e-6e71-405f-bfbb-dd61ac5e90e4)
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,react,babel)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,react,babel,git)](https://skillicons.dev)
 
 ## Available Scripts
 
