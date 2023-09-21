@@ -6,7 +6,7 @@ export const Result = ({ result }) => (
         {!!result && (
             <>
                 <strong>
-                    {result.targetAmount.toFixed(2)}&nbsp;{result.currency}
+                    {result.sourceAmount}&nbsp;PLN&nbsp;=&nbsp;{result.targetAmount.toFixed(2)}&nbsp;{result.currency}
                 </strong>
             </>
         )}
