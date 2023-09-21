@@ -6,6 +6,9 @@ Hello, I present you a simple currency calculator that allows you to convert any
 
 ## [Demo]( https://damian1603.github.io/currency-converter-react/)
 
+![Animation](https://github.com/Damian1603/currency-converter-react/assets/124574553/ac86a32e-6e71-405f-bfbb-dd61ac5e90e4)
+
+
 
 ## Available Scripts
 
