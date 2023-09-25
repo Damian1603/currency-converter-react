@@ -11,5 +11,5 @@ html {
 body {
   font-family: 'Kanit', sans-serif;
   background-size: 300px;
-  background-image: url("./background1.jpg");
+  background-image: url("../public/background1.jpg");
 }
