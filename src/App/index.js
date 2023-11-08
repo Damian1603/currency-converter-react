@@ -5,7 +5,7 @@ import "./App.css";
 
 
 function App() {
-    const [result, setResult] = useState();
+    const [result, setResult] = useState("");
 
     const calculateResult = (currency, amount) => {
         const rate = currencies.find(({ short }) => short === currency).rate
@@ -18,6 +18,7 @@ function App() {
     };
 
     return (
+
         <div className="app">
             <Form
                 result={result}
