@@ -8,8 +8,11 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  background-image: url("/src/dollars.png");
+}
+
 body {
   font-family: 'Kanit', sans-serif;
   background-position: center;
-  background-image: url("../public/dollars.png");
 }
