@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
 import "./style.css";
