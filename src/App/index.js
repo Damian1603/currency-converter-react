@@ -14,7 +14,7 @@ function App() {
             sourceAmount: +amount,
             targetAmount: amount / rate,
             currency,
-        });
+        })
     };
 
     return (
