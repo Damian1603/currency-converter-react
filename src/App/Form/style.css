@@ -34,7 +34,8 @@
 .form__button:hover {
     transition: 1s;
     transform: scale(1.1);
-    background-color: rgb(196, 196, 196); ;
+    background-color: rgb(196, 196, 196);
+    ;
 }
 
 .form__header {
@@ -49,4 +50,10 @@
 .container {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-wrap: wrap;
+    }
 }
