@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { currencies } from "./currencies";
 import { Form } from "./Form";
 import { Clock } from "./Clock";
