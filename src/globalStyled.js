@@ -1,3 +1,7 @@
+import { createGlobalStyle } from "styled-components";
+import background from "./dollars.png"
+
+export const GlobalStyled = createGlobalStyle`
 html {
   box-sizing: border-box;
 }
@@ -9,7 +13,7 @@ html {
 }
 
 :root {
-  background-image: url("/src/dollars.png");
+  background-image: url("${background}");
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -17,3 +21,4 @@ html {
 body {
   font-family: 'Kanit', sans-serif;
 }
+`
