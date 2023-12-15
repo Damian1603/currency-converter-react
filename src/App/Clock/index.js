@@ -1,5 +1,6 @@
-import { OnCurrentDate } from "./OnCurrentDate";
-import "./style.css"; 
+import { useCurrentDate } from "./useCurrentDate";
+import { StyledData } from "./dataStyle";
+
 
 const renderCurrentDate = (date) =>
     date.toLocaleDateString("pl-PL", {
@@ -13,9 +14,11 @@ const renderCurrentDate = (date) =>
     });
 
 export const Clock = () => {
-    const date = OnCurrentDate()
+    const date = useCurrentDate()
 
     return (
-        <> Dzisiaj jest: {renderCurrentDate(date)}</ >
+        <StyledData>
+            <> Dzisiaj jest: {renderCurrentDate(date)}</ >
+        </StyledData>
     )
 };
