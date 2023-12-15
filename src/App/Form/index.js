@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
-import "./style.css";
+import {
+    StyledForm, StyledHeader, StyledContainer,
+    StyledLabelText, StyledField, StyledButton,
+    StyledInfo
+} from "./styled";
 
 export const Form = ({ calculateResult, result }) => {
     const [currency, setCurrency] = useState(currencies[0].short);
@@ -13,18 +17,18 @@ export const Form = ({ calculateResult, result }) => {
     }
 
     return (
-        <form className="form" onSubmit={onSubmit}>
-            <h1 className="form__header">
+        <StyledForm onSubmit={onSubmit}>
+            <StyledHeader>
                 Kalkulator walutowy
-            </h1>
+            </StyledHeader>
             <p>
-                <label className="container">
-                    <span className="form__labelText">
+                <StyledContainer>
+                    <StyledLabelText>
                         *Kwota w PLN:
-                    </span>
-                    <input
+                    </StyledLabelText>
+                    <StyledField
+                        as="input"
                         autoFocus
-                        className="form__field"
                         value={amount}
                         onChange={({ target }) => setAmount(target.value)}
                         placeholder="Wpisz kwotę w złotówkach"
@@ -32,15 +36,14 @@ export const Form = ({ calculateResult, result }) => {
                         required
                         min={1}
                     />
-                </label>
+                </StyledContainer>
             </p>
             <p>
-                <label className="container">
-                    <span className="form__labelText">
+                <StyledContainer>
+                    <StyledLabelText>
                         Waluta:
-                    </span>
-                    <select
-                        className="form__field"
+                    </StyledLabelText>
+                    <StyledField
                         value={currency}
                         onChange={({ target }) => setCurrency(target.value)}
                     >
@@ -52,21 +55,21 @@ export const Form = ({ calculateResult, result }) => {
                                 {currency.name}
                             </option>
                         )))}
-                    </select>
-                </label>
+                    </StyledField>
+                </StyledContainer>
             </p>
             <p>
-                <button className="form__button">
+                <StyledButton>
                     <strong>Przelicz</strong>
-                </button>
+                </StyledButton>
             </p>
-            <p className="form__info">
+            <StyledInfo>
                 Kurs pochodzą ze strony nbp.pl z tabeli nr 177/A/NBP/2023 z dnia 2023-09-13
-            </p>
-            <p className="form__info">
-                * - to pole musi być uzupełnione
-            </p>
+                <p>
+                    * - to pole musi być uzupełnione
+                </p>
+            </StyledInfo>
             <Result result={result} />
-        </form>
+        </StyledForm>
     );
 };
