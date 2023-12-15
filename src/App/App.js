@@ -2,9 +2,10 @@ import { useState } from "react";
 import { currencies } from "./currencies";
 import { Form } from "./Form";
 import { Clock } from "./Clock";
-import "./App.css";
+import { StyledContainer } from "../Container/styled";
+import { GlobalStyled } from "../globalStyled";
 
-function App() {
+export function App() {
     const [result, setResult] = useState("");
 
     const calculateResult = (currency, amount) => {
@@ -19,15 +20,16 @@ function App() {
 
     return (
 
-        <div className="app">
-            <div className="data">
+        <StyledContainer>
+            <GlobalStyled/>
                 <Clock />
-            </div>
+            
             <Form
                 result={result}
                 calculateResult={calculateResult}
             />
-        </div>
+           
+        </StyledContainer>
     );
 };
 
