@@ -2,13 +2,13 @@
 
 ## Description
 
-Hello, I present you a simple currency calculator that allows you to convert any amount of polish zlotys into euros, dollars and pounds. Using the create react app package, I created a project in react which is my homework as part of the frontend developer course. I have divided the application into components, which makes code review of my calculator very easy. I hope you like it and encourage you to try it.
+Hello, I present you a simple currency calculator that allows you to convert any amount of polish zlotys into euros, dollars and pounds. Using the create react app package, I created a project in react which is my homework as part of the frontend developer course. I have divided the application into components, which makes code review of my calculator very easy. Used also styled components and my customs hooks. I hope you like it and encourage you to try it.
 
 ## [Demo]( https://damian1603.github.io/currency-converter-react/)
 
 ![Animation](https://github.com/Damian1603/currency-converter-react/assets/124574553/a18960ed-b91e-4e17-891d-fb0ab0d24437)
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,react,babel,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,react,styledcomponents,babel,git)](https://skillicons.dev)
 
 ## Available Scripts
 
