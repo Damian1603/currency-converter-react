@@ -3,7 +3,6 @@ import { currencies } from "./currencies";
 import { Form } from "./Form";
 import { Clock } from "./Clock";
 import { StyledContainer } from "../Container/styled";
-import { GlobalStyled } from "../globalStyled";
 
 export function App() {
     const [result, setResult] = useState("");
@@ -21,14 +20,11 @@ export function App() {
     return (
 
         <StyledContainer>
-            <GlobalStyled/>
-                <Clock />
-            
+            <Clock />
             <Form
                 result={result}
                 calculateResult={calculateResult}
             />
-           
         </StyledContainer>
     );
 };
