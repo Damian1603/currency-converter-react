@@ -1,7 +1,6 @@
 import { useCurrentDate } from "./useCurrentDate";
 import { StyledData } from "./dataStyle";
 
-
 const renderCurrentDate = (date) =>
     date.toLocaleDateString("pl-PL", {
         month: "long",
