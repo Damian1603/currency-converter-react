@@ -9,7 +9,7 @@ export const theme = {
         shadowColor: "#5a5959",
         buttonColor: "#d1d1d1"
     },
-
+    
     breakpoints: {
         mobile: (767)
     }
