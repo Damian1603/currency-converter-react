@@ -7,7 +7,8 @@ export const theme = {
         buttonActiveGray: "#c4c4c4",
         backgroundColor: "#c3cecb",
         shadowColor: "#5a5959",
-        buttonColor: "#d1d1d1"
+        buttonColor: "#d1d1d1",
+        crimson: "#dc143c"
     },
     
     breakpoints: {
