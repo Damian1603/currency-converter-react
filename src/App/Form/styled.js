@@ -56,3 +56,12 @@ export const StyledInfo = styled.p`
     text-align: center;
     color: ${({ theme }) => theme.colors.gray};
 `;
+
+export const StyledLoading = styled.p`
+background-color: ${({ theme }) => theme.colors.backgroundColor};
+`;
+
+export const StyledFailure = styled.p`
+background-color: ${({ theme }) => theme.colors.crimson};
+text-align:center;
+`
