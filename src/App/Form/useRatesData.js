@@ -5,7 +5,7 @@ export const useRatesData = () => {
         state: "loading",
     })
 
-    const API_URL = "https://api.currencyapi.com/v3/latest?apikey=cur_live_x7ObLVw9onFaGGeacM2AM12N6Eo14dHx6Kyl4BI5&currencies=EUR%2CGBP%2CUSD&base_currency=PLN"
+    const API_URL = "https://api.currencyapi.com/v3/latest?apikey=cur_live_x7ObLVw9onFaGGeacM2AM12N6Eo14dHx6Kyl4BI5&currencies=EUR%2CUSD%2CGBP&base_currency=PLN"
 
     useEffect(() => {
         const fetchRates = async () => {
