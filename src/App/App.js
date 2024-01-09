@@ -6,7 +6,6 @@ export function App() {
 
     return (
         <StyledContainer>
-            <Clock />
             <Form />
         </StyledContainer>
     );
