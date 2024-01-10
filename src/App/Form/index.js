@@ -7,6 +7,7 @@ import {
 } from "./styled";
 import { useRatesData } from "./useRatesData";
 import { currencies } from "../currencies";
+import { Clock } from "./Clock";
 
 export const Form = () => {
     const [currency, setCurrency] = useState("EUR");
@@ -41,6 +42,7 @@ export const Form = () => {
     return (
 
         <StyledForm onSubmit={onSubmit}>
+            <Clock />
             <StyledHeader>
                 Kalkulator walutowy
             </StyledHeader>
