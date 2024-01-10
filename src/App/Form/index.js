@@ -3,11 +3,12 @@ import { Result } from "./Result";
 import {
     StyledForm, StyledHeader, StyledContainer,
     StyledLabelText, StyledField, StyledButton,
-    StyledInfo, StyledLoading, StyledFailure
+    StyledLoading, StyledFailure
 } from "./styled";
 import { useRatesData } from "./useRatesData";
 import { currencies } from "../currencies";
 import { Clock } from "./Clock";
+import { Footer } from "./Footer";
 
 export const Form = () => {
     const [currency, setCurrency] = useState("EUR");
@@ -103,12 +104,7 @@ export const Form = () => {
                                     <strong>Przelicz</strong>
                                 </StyledButton>
                             </p>
-                            <StyledInfo>
-                                Kurs pochodzą ze strony nbp.pl z tabeli nr 177/A/NBP/2023 z dnia 2023-09-13
-                                <p>
-                                    * - to pole musi być uzupełnione
-                                </p>
-                            </StyledInfo>
+                            <Footer />
                             <Result result={result} />
                         </>
                     )
