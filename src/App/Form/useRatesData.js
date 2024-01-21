@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 export const useRatesData = () => {
     const [ratesData, setRatesData] = useState({
         state: "loading",
-    })
+    });
 
     const API_URL = "https://api.currencyapi.com/v3/latest?apikey=cur_live_x7ObLVw9onFaGGeacM2AM12N6Eo14dHx6Kyl4BI5&currencies=EUR%2CUSD%2CGBP&base_currency=PLN"
 
