@@ -6,7 +6,6 @@ import {
     StyledLoading, StyledFailure
 } from "./styled";
 import { useRatesData } from "./useRatesData";
-import { currencies } from "../currencies";
 import { Clock } from "./Clock";
 import { Footer } from "./Footer";
 
@@ -32,12 +31,7 @@ export const Form = () => {
         })
     };
 
-    const findFullName = (currencyShort) => {
-        const foundCurrency = currencies.find(
-            (currency) => currency.shortName === currencyShort
-        );
-        return foundCurrency ? foundCurrency.fullName : "";
-    };
+    
 
     return (
 
@@ -92,7 +86,7 @@ export const Form = () => {
                                                 key={currency}
                                                 value={currency}
                                             >
-                                                {currency}&nbsp;{findFullName(currency)}
+                                                {currency}
                                             </option>
                                         ))}
                                     </StyledField>
