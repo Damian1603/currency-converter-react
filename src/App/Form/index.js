@@ -31,8 +31,6 @@ export const Form = () => {
         })
     };
 
-    
-
     return (
 
         <StyledForm onSubmit={onSubmit}>
@@ -68,6 +66,7 @@ export const Form = () => {
                                         type="number"
                                         required
                                         min={1}
+                                        step={0.01}
                                     />
                                 </StyledContainer>
                             </p>
@@ -103,7 +102,5 @@ export const Form = () => {
                     )
                 )}
         </StyledForm>
-
     );
-
 };
