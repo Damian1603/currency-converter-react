@@ -1,7 +1,7 @@
 import { StyledResult } from "./styled";
 
 export const Result = ({ result }) => (
-    
+
     <StyledResult>
         {!!result && (
             <>
