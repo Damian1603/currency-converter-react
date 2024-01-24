@@ -1,8 +1,8 @@
-import { useFooterData } from "./useFooterData"
+import { useFooterDate } from "./useFooterDate"
 import { StyledInfo } from "../styled"
 
 export const Footer = (ratesData) => {
-    const formattedRatesDay = useFooterData(ratesData)
+    const formattedRatesDay = useFooterDate(ratesData)
 
     return (
 

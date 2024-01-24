@@ -8,7 +8,7 @@ const formatDate = {
 
 }
 
-export const useFooterData = (ratesData) => {
+export const useFooterDate = (ratesData) => {
 
     const [ratesDay, setRatesDay] = useState(new Date());
 
