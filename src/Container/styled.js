@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-    max-width: 700px;
-    border-radius: 15px;
+    max-width: 850px;
+    border-radius: 25px;
     box-shadow: 1px 4px 12px 4px ${({ theme }) => theme.colors.shadowColor};
     padding: 10px;
-    margin: 100px auto;
+    margin: 200px auto;
     background-color: ${({ theme }) => theme.colors.backgroundColor};
     font-family: 'Kanit', sans-serif;;
 

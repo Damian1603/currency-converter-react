@@ -20,5 +20,6 @@ html {
 
 body {
   font-family: 'Kanit', sans-serif;
+  margin: auto;
 }
-`
+`;

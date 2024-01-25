@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const StyledForm = styled.form`
-    max-width: 600px;
-    margin: auto;
+    max-width: 700px;
+    margin: 30px auto;
     display: block;
 `;
 
@@ -21,7 +21,7 @@ export const StyledContainer = styled.label`
 
 export const StyledLabelText = styled.span`
     width: 100%;
-    margin-right: 5px;
+   
     font-size: 20px;
 `;
 
@@ -29,7 +29,7 @@ export const StyledField = styled.select`
     border: 1px solid ${({ theme }) => theme.colors.borderField};
     padding: 10px;
     border-radius: 5px;
-    width: 150%;
+    width: 120%;
     background-color: ${({ theme }) => theme.colors.lightGray};
     margin: 5px;
     align-items: center;
@@ -39,7 +39,7 @@ export const StyledField = styled.select`
 export const StyledButton = styled.button`
     border: 2px solid ${({ theme }) => theme.colors.borderButtonGray};
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     background-color: ${({ theme }) => theme.colors.buttonColor};
     margin: auto;
@@ -47,7 +47,7 @@ export const StyledButton = styled.button`
 
     &:hover{
     transition: 1s;
-    transform: scale(1.1);
+    transform: scale(1.04);
     background-color: ${({ theme }) => theme.colors.buttonActiveGray};
     }
 `;
