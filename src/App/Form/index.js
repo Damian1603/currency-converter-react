@@ -47,7 +47,7 @@ export const Form = () => {
                 : (
                     ratesData.state === "error" ? (
                         <StyledFailure>
-                            Niestety coś poszło nie tak. Sprawdź połączenie z internetem
+                            Niestety coś poszło nie tak😣 Sprawdź połączenie z internetem
                         </StyledFailure>
                     ) : (
                         <>
