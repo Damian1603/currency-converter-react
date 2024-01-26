@@ -24,10 +24,11 @@ export const useRatesData = () => {
                     data,
                 });
 
-            } catch {
+            } catch (error) {
                 setRatesData({
                     state: "error",
                 });
+                console.log(error)
             }
         };
 
