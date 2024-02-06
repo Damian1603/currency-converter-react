@@ -1,5 +1,5 @@
 import { Form } from "./Form";
-import { StyledContainer } from "../Container/styled";
+import { StyledContainer } from "./Container/styled";
 
 export function App() {
 
